@@ -1,0 +1,21 @@
+---
+title: "Group 11 CA Pollution Burden"
+author: "Trent Buchanan, Larissa Neilson"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+
+```
+
