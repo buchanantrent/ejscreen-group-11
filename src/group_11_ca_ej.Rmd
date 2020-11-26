@@ -29,3 +29,4 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal()
 ```
 
+CES score seems to decrease as the white population percent increases. Many observations (orange color) are seen at a low CES score around a 75% white population.
